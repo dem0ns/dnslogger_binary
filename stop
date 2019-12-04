@@ -1,0 +1,1 @@
+pgrep dnslogger | xargs kill -9

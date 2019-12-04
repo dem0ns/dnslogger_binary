@@ -1,0 +1,3 @@
+nohup ./dnslogger 2>/dev/null > log &
+echo "[-] The process will runing until you run ./stop command!"
+./monitor
