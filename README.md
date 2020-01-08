@@ -1,4 +1,7 @@
 # dnslogger
 
-#### TIPS
-由于udp53端口权限问题，需要以root用户的身份运行
+### Run
+chmod +x dnslogger && ./dnslogger
+
+### Allow UDP Port 53
+[CentOS] firewall-cmd --add-port 53/udp --permanent && firewall-cmd --reload
