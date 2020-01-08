@@ -19,5 +19,5 @@ chmod +x dnslogger && ./dnslogger
 ### Domain (For example: DNS log doamin is log.example.com)
 
 1. You must have a domain.
-2. Add a `DNS Host`, the `DNS server` column write with `ns1.example.com`, `ip address` is your server ip.
-3. Add a DNS resolve, `Host` write with `log`, `Type` write with `NS`, `value` write with `ns1.example.com`.
+2. Add a `DNS Host`: the `DNS server` column write with `ns1.example.com`, `ip address` is your server ip.
+3. Add a DNS resolve: `Host` write with `log`, `Type` write with `NS`, `value` write with `ns1.example.com`.
