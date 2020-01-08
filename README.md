@@ -21,3 +21,8 @@ chmod +x dnslogger && ./dnslogger
 1. You must have a domain.
 2. Add a `DNS Host`: the `DNS server` column write with `ns1.example.com`, `ip address` is your server ip.
 3. Add a DNS resolve: `Host` write with `log`, `Type` write with `NS`, `value` write with `ns1.example.com`.
+
+
+### Tips
+
+1. Aliyun ECS need to stop local DNS server `systemctl stop systemd-resolved.service`
