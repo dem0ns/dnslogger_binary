@@ -2,7 +2,7 @@
 
 ### Run
 
-chmod +x dnslogger && ./dnslogger
+sudo chmod +x dnslogger && sudo ./start
 
 
 ### Configuration
