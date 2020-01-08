@@ -4,6 +4,7 @@
 
 chmod +x dnslogger && ./dnslogger
 
+
 ### Configuration
 
 1. Import sql struct file to database. (record.sql)
