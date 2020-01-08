@@ -1,4 +1,4 @@
-# dnslogger
+# DNSLogger
 
 ### Run
 
