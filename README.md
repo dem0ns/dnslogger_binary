@@ -2,7 +2,11 @@
 
 ### Run
 
-sudo chmod +x dnslogger && sudo ./start
+`sudo chmod +x dnslogger && sudo ./start`
+
+Or 
+
+`docker-compose up` (for background use `docker-compose up -d`)
 
 
 ### Configuration
