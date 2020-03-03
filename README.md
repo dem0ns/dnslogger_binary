@@ -15,7 +15,7 @@ Or Run With Docker
 
 ### Configuration
 
-1. Import `init.sql` to database.
+1. Import `init.sql` To Database.
 
 2. Edit `config.ini`.
 
@@ -26,9 +26,9 @@ Or Run With Docker
 
 ### Domain
 
-1. You must have a domain.
+1. You Must Have A Domain.
 2. DNS Host: `ns1.example.com` -> `ip address`.
-3. DNS resolve: [NS] `log` -> `ns1.example.com`; [A] `ns1` -> `ip address`.
+3. DNS Resolve: [NS] `log` -> `ns1.example.com`; [A] `ns1` -> `ip address`.
 4. Finally: DnsLog Domain `log.example.com`
 
 ### Tips
