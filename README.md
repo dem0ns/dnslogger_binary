@@ -1,5 +1,9 @@
 # DNSLogger
 
+### Get
+
+`git clone --depth=1 https://github.com/nic329/dnslogger.git`
+
 ### Run
 
 `sudo chmod +x dnslogger && sudo ./start`
