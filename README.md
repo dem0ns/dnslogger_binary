@@ -4,29 +4,29 @@
 
 `sudo chmod +x dnslogger && sudo ./start`
 
-Or 
+Or Run With Docker
 
 `docker-compose up` (for background use `docker-compose up -d`)
 
 
 ### Configuration
 
-1. Import sql struct file to database. (record.sql)
-2. Change config.ini. (`conn` database connect config information, `default ip` DNS result ip.)
+1. Import `init.sql` to database.
 
+2. Edit `config.ini`.
 
 ### Allow UDP Port 53
 
 [CentOS] firewall-cmd --add-port 53/udp --permanent && firewall-cmd --reload
 
 
-### Domain (For example: DNS log doamin is log.example.com)
+### Domain
 
 1. You must have a domain.
-2. Add a `DNS Host`: the `DNS server` column write with `ns1.example.com`, `ip address` is your server ip.
-3. Add a DNS resolve: `Host` write with `log`, `Type` write with `NS`, `value` write with `ns1.example.com`.
-
+2. DNS Host: `ns1.example.com` -> `ip address`.
+3. DNS resolve: [NS] `log` -> `ns1.example.com`; [A] `ns1` -> `ip address`.
+4. Finally: DnsLog Domain `log.example.com`
 
 ### Tips
 
-1. Aliyun ECS need to stop local DNS server `systemctl stop systemd-resolved.service`
+1. Aliyun ECS: Stop local DNS server `systemctl stop systemd-resolved.service`
