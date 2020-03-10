@@ -27,10 +27,12 @@ Or Run With Docker
 ### Domain
 
 1. You Must Have A Domain.
-2. DNS Host: `ns1.example.com` -> `ip address`.
-3. DNS Resolve: [NS] `log` -> `ns1.example.com`; [A] `ns1` -> `ip address`.
-4. Finally: DnsLog Domain `log.example.com`
+2. DNS Resolve: [NS] `log` -> `ns1.example.com`; [A] `ns1` -> `ip address`.
+3. Finally: DnsLog Domain `log.example.com`
 
 ### Tips
 
 1. Aliyun ECS: Stop local DNS server `systemctl stop systemd-resolved.service`
+
+
+[![Video](https://img.youtube.com/vi/JA8wn8sC844/0.jpg)](https://www.youtube.com/watch?v=JA8wn8sC844)
