@@ -35,4 +35,4 @@ Or Run With Docker
 1. Aliyun ECS: Stop local DNS server `systemctl stop systemd-resolved.service`
 
 
-[![Video](https://img.youtube.com/vi/JA8wn8sC844/0.jpg)](https://www.youtube.com/watch?v=JA8wn8sC844)
+https://www.youtube.com/watch?v=JA8wn8sC844
