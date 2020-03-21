@@ -13,10 +13,6 @@
 
 ### Run | 运行
 
-`sudo chmod +x dnslogger && sudo ./start`
-
-Or Run With Docker 在Docker内运行
-
 `docker-compose up` (for background use `docker-compose up -d`)
 
 
