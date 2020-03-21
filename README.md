@@ -16,14 +16,7 @@
 `docker-compose up` (for background use `docker-compose up -d`)
 
 
-### Configuration | 配置
-
-1. Import `init.sql` To Database.
-
-2. Edit `config.ini`.
-
-
-### Allow UDP Port 53 | 允许UDP53端口
+### Port Policy | 端口策略
 
 [CentOS] firewall-cmd --add-port 53/udp --permanent && firewall-cmd --reload
 
