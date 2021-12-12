@@ -23,7 +23,7 @@
 
 ### Domain | 域名
 
-DNS Record: 1. [NS] `log` -> `ns1.example.com`, 2. [A] `ns1` -> `server ip`.
+DNS Record: 1. [NS] `log` -> `ns1.yourdomain.com`, 2. [A] `ns1` -> `server ip`.
 
 
 ### Tips | 提示
