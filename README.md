@@ -5,10 +5,14 @@
 - https://www.youtube.com/watch?v=JA8wn8sC844
 - https://www.bilibili.com/video/av95178665/
 
+### Source Code | 源码
+
+`https://github.com/dem0ns/dnslogger`
+
 
 ### Get | 获取
 
-`git clone --depth=1 https://github.com/dem0ns/dnslogger.git`
+`git clone --depth=1 https://github.com/dem0ns/dnslogger_binary.git`
 
 
 ### Run | 运行
